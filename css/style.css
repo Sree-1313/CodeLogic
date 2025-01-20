@@ -1,0 +1,824 @@
+/** Hash Configs **/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  
+    /** Font **/
+    --font1:Poppins;
+    --font2:Inter, sans-serif;
+
+    --fontSize1: 2rem;
+    --fontSize2: 1.5rem;
+
+
+    /** Colors **/
+    --color1: white;
+    --color2: #0D1336;
+    --color3: gray;
+
+
+    --xs:1%;
+    --sm:1.5%;
+    --md:5%;
+    --lg:7.5%;
+    --xl:32%;
+
+    --px-xs:1%;
+    --px-sm:2.5%;
+    --px-md:5%;
+    --px-lg:7.5%;
+    --px-xl:10%;
+
+    
+}
+
+/** Hash Configs Ends **/
+
+/*** 
+====================================================================
+	Text - START
+====================================================================
+***/
+h1 {
+  font-family: var(--font1);
+  font-size: var(--fontSize1);
+  font-weight: normal;
+  color: var(--color1);
+}
+p {
+  font-family:var(--font1);
+  font-size: var(--fontSize2);
+  color: var(--color1);
+}
+
+
+/* lg screen*/
+@media (max-width: 1012px) {
+}
+ 
+/* md screen*/
+@media (max-width: 768px) {
+
+    h1, .h1 {
+      font-size:  6.4rem;
+    }
+    h2, .h2 {
+      font-size: 3.4rem;
+    }
+}
+ 
+/* sm screen*/
+@media (max-width: 577px) {
+ /** DESIGN **/
+  h1, .h1 {
+    font-size:  4.7rem;
+  }
+  h2, .h2 {
+    font-size: 2.9rem;
+  }
+  h3, .h3 {
+    font-size: 1.8rem;
+  }
+  h4, .h4 {
+    font-size: 1.6rem;
+  }
+  h5, .h5 {
+    font-size: 1.6rem;
+  }
+}
+
+
+/*** Validation Styling ***/
+.ans-tiles.correct { background-color: lightgreen; height: fit-content;}
+.ans-tiles.incorrect { background-color: lightcoral; height: fit-content;}
+/* .reference {cursor: url(../img/green-cursor.cur), auto;} */
+.selected.ans-ref {
+  background-color: #c8d6e5;
+  width: fit-content;
+  height: fit-content;
+}
+
+#m1 .n0-i2 .inner {
+  padding: 5px
+}
+
+.bg{
+  --imgBg: url("");
+  --imgBgHeight: 100vh;
+  width: 100%;
+  background: var(--imgBg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: var(--imgBgHeight);
+  background-position: center;
+}
+
+/*** 
+====================================================================
+    Page Styling - Start
+====================================================================
+***/
+
+.n0-i1{
+  background-color: var(--color2);
+  color: var(--color1);
+  --xl:38%;
+}
+#h1 p {
+  font-size: 1.5rem;
+}
+.n1-i2{
+  border-right: 1px solid #393E65;
+  height: 64px;
+}
+#m1 .n0-i2{
+  background: url(../img/l1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:57vh;
+}
+.n0-i3{
+  background-color: #0D1336;
+}
+#m1 .n0-i4{
+  background-color: #0D1336;
+  height: fit-content;
+  min-height: 260px;
+  --lg:12%;
+  --xl:49%;
+}
+#m1 img {
+  max-width: 100%;
+}
+#m1 .box {
+  height: 188px;
+  width: 188px;
+  border: 4px solid white;
+  border-radius: 18px;
+}
+.submit {
+  background-color: #67F18A;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #67F18A;
+  padding: 6px 20px;
+  border-radius: 8px;
+  font-family: var(--font1);
+}
+.n0-i1 {
+  background-color: #0D1336;
+  width: 100%;
+}
+.n1-i1{
+  border-bottom: 2px solid #393E65;
+}
+.n2-i2{
+  border-right: 1px solid #393E65;
+  height: 64px;
+}
+.n0-i2{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#m2 .n0-i2,
+#m3 .n0-i2{
+  background: url(../img/grid.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#m4 .n0-i2{
+  background: url(../img/grid.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#m5 .n0-i1,
+#m6 .n0-i1,
+#m7 .n0-i1,
+#m8 .n0-i1,
+#m9 .n0-i1,
+#m10 .n0-i1{
+  --lg:6.333%;
+}
+#m5 .n0-i2,
+#m6 .n0-i2,
+#m7 .n0-i2,
+#m8 .n0-i2,
+#m9 .n0-i2,
+#m10 .n0-i2{
+  background: #080C26;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.q1 .answer .tile-1{
+  background: url(../img/1-bg1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.q1 .answer .tile-2{
+  background: url(../img/1-bg2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.q1 .answer .tile-3{
+  background: url(../img/1-bg3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#m2 .box1 {
+  width: 280px; 
+  height: 40px; 
+  background-color: #393E65;
+  margin-left: 40px;
+  color: white;
+  border-radius: 5px;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 10px;
+  padding: 0 10px; 
+}
+#m3 .box1,
+#m4 .box1 {
+  width: 370px; 
+  height: 40px; 
+  background-color: #393E65;
+  margin-left: 40px;
+  color: white;
+  border-radius: 5px;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 10px; 
+  padding: 0 10px;
+}
+.box2 {
+  width: 280px; 
+  height: 40px; 
+  background-color: #393E65;
+  margin-left: 40px;
+  color: white;
+  border-radius: 5px;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 10px; 
+  padding: 0 10px;
+}
+#m6 .box2{
+  width: 350px; 
+  height: 40px; 
+  background-color: #0D1336;
+  margin-left: -10px;
+  color: white;
+  border-radius: 5px;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 0 10px;
+}
+#m10 .box2 {
+  width: 330px; 
+  height: 40px; 
+  background-color: #0D1336;
+  margin-left: -10px;
+  color: white;
+  border-radius: 5px;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 0 10px;
+}
+#m8 .box2 {
+  width: 450px; 
+  height: 40px; 
+  background-color: #0D1336;
+  margin-left: -10px;
+  color: white;
+  border-radius: 5px;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 0 10px;
+}
+.box3 {
+  width: 300px; 
+  height: 40px; 
+  background-color: #0D1336;
+  margin-left: -10px;
+  color: white;
+  border-radius: 5px;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 0 10px;
+}
+
+#m3 .box2,
+#m4 .box2 {
+  width: 370px; 
+  height: 40px; 
+  background-color: #393E65;
+  margin-left: 40px;
+  color: white;
+  border-radius: 5px;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 10px; 
+  padding: 0 10px;
+}
+.text {
+  flex: 1; 
+  font-size: 16px;
+  text-align: left; 
+  font-family: "Fira Code", monospace;
+  color: #2CB1E0;
+}
+.text1 {
+  flex: 1;
+  font-size: 16px;
+  text-align: left; 
+  font-family: "Fira Code", monospace;
+  color: white;
+}
+.n2-i5 p{
+  font-family: "Fira Code", monospace;
+}
+.n4-i5{
+  --xs:7.1%;
+  --sm:49%;
+  --px-sm:7.3%;
+}
+.text2 {
+  flex: 1; 
+  font-size: 16px;
+  text-align: left; 
+  color: #FAFAFA;
+  font-family: "Fira Code", monospace;
+  opacity: 0.5;
+}
+.icon1 img {
+  width: 10px;
+  height: 10px;
+}
+.icon2 img {
+  width: 10px;
+  height: 10px;
+}
+
+.box1, .box2, .box3 {
+  border: 3px dashed transparent;
+  transition: border-color 0.3s;
+}
+
+.box2:hover {
+  border-color: red;
+}
+.box3:hover {
+  border-color: red;
+}
+
+
+.num {
+  width: 30px;
+  height: 30px;
+  background-color: #393E65;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-left: 20px;
+  font-family: "Fira Code", monospace;
+  
+}
+.num2 {
+  width: 30px;
+  height: 30px;
+  background-color: #393E65;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-left: 20px;
+  font-family: "Fira Code", monospace;
+  position: absolute;
+}
+.num1 {
+  width: 30px;
+  height: 30px;
+  background-color: FFFFFF;
+  border-radius: 50%;
+  text-align: center;
+  color: #393E65;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  margin-left: 20px;
+  font-family: "Fira Code", monospace;
+}
+.num3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position:absolute;
+  left:-30px; 
+  color: #ddd;
+  font-family: monospace;
+  text-align: right;
+}
+#dragContainer-q2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+#dragContainer {
+display: flex;
+flex-direction: column;
+gap: 10px; 
+}
+#dragContainer-1 {
+display: flex;
+flex-direction: column;
+gap: 10px; 
+}
+.dragging {
+  background-color: rgba(0, 0, 255, 0.2); 
+}
+.dragging-box1 {
+  background-color: #080C26;
+  cursor: grabbing;
+  opacity: 2.5 !important;
+  color: #000;
+}
+
+.icon1 {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+/* 
+.box3:hover {
+  border: 2px dashed red;
+}
+.box3:hover .icon1 {
+  display: inline-block;
+  opacity: 1;
+} */
+.box2:hover .icon1 {
+  display: inline-block;
+  opacity: 1;
+}
+
+.run {
+  width: 100px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid white;
+  padding: 6px 20px;
+  border-radius: 5px;
+  font-family: var(--font1);
+}
+
+.vertical-line {
+  width: 1px;
+  height: 2190%;
+  background-color: #393E65;
+  margin-left: 30%;
+  position: relative;
+  left: -20px;
+}
+
+.code-block .line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.code-block .dropdown {
+  background-color: #2c2c54;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.code-block .comment {
+  color: #67F18A;
+  font-family: "Fira Code", monospace;
+  margin-left: 3px;
+  font-size: 16px;
+}
+
+span {
+  color: #2CB1E0;
+  font-size: 16px;
+  font-family: "Fira Code", monospace;
+}
+
+.n3-i2 p {
+  font-size: 16px;
+  font-family: "Fira Code", monospace;
+}
+
+.n3-i1 {
+  background-color: #080C26;
+  width: 7.8%;
+  height: 91vh;
+}
+
+#m10 .n3-i1 {
+  background-color: #080C26;
+  width: 8.4%;
+  height: 91vh;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.toggle-btn {
+  background-color: transparent;
+  color: #fff;
+  padding: 6px 20px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  border-radius: 5px;
+  gap: 5px;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+
+
+.toggle-btn.active {
+  background-color: #fff;
+  color: #080C26;
+  font-weight: bold;
+}
+
+#hintBtn {
+  border: none;
+}
+
+.type-inline-input {
+  display: inline-block;
+  min-width: 100px;
+  border-bottom: 1px solid #ccc;
+  padding: 2px;
+  font-size: 14px;
+  color: white;
+  outline: none;
+  cursor: text;
+}
+
+.type-inline-input[contenteditable="true"]::before {
+  content: attr(placeholder);
+  color: #aaa;
+  font-style: italic;
+}
+
+.type-inline-input[contenteditable="true"]:focus::before {
+  content: "";
+}
+
+.console-output {
+  color: #fff;
+  font-family: "Fira Code", monospace;
+  font-size: 16px;
+  line-height: 2.5;
+  position: relative;
+  top: 35px;
+  left: 10px;
+}
+
+.outputbtn {
+  width: 24px;
+  height: 24px;
+}
+
+.custom-overlay .ui-dialog-content {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-image {
+  height: 100px;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.popup img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.popup_btn_border {
+  border-radius: 15px;
+  border: 4px dashed #62F163;
+  padding: 4px;
+  width: 140px;
+  height: 45px;
+}
+
+#custom-alert {
+  display: grid;
+  justify-self: center;
+  position: fixed;
+  z-index: 1000;
+  font-size: 5rem;
+}
+
+#custom-alert-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#custom-alert-content {
+  background-color: #0D1336;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#custom-alert-message {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#custom-alert-close {
+  background-color: #393E65;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+select option[disabled] {
+  color: gray;
+  display: none;
+  border-bottom: 2px dashed gray;
+}
+
+select option:first-child {
+  display: none;
+}
+
+#m5 .fixed-run-button,
+#m7 .fixed-run-button,
+#m6 .fixed-run-button,
+#m8 .fixed-run-button,
+#m9 .fixed-run-button,
+#m10 .fixed-run-button {
+  position: absolute;
+  bottom: 45px;
+  z-index: 10;
+}
+
+#m5 .fixed-run-button {
+  right: 10px;
+}
+
+#m7 .fixed-run-button {
+  right: -30px;
+}
+
+#m6 .fixed-run-button {
+  right: 20px;
+}
+
+#m8 .fixed-run-button {
+  left: 540px;
+}
+
+#m9 .fixed-run-button {
+  right: 25px;
+}
+
+#m10 .fixed-run-button {
+  right: 60px;
+}
+
+.fixed-run-button1 {
+  position: absolute;
+  bottom: 39.5px;
+  right: 60px;
+  z-index: 10;
+}
+
+.aligned-text {
+  font-family: "Fira Code", monospace;
+  font-size: 16px;
+  line-height: 2.5;
+  position: relative;
+  top: 25px;
+  left: 10px;
+}
+
+.dropdown {
+  font-family: "Fira Code", monospace;
+}
+
+option {
+  font-family: "Fira Code", monospace;
+  font-size: 14px;
+}
+
+
+/*** 
+====================================================================
+    Page Styling - END
+====================================================================
+***/
+
+/*** 
+====================================================================
+   Responsive - START
+====================================================================
+***/
+
+/* large laptop screen*/
+  @media (max-width: 1920px) {
+  }
+
+/* small laptop screen*/
+@media (max-width: 1012px) {
+}
+
+/* tablet screen*/
+@media (max-width: 768px) {
+}
+
+/* mobile screen*/
+@media (max-width: 577px) {
+}
+
+/*** 
+====================================================================
+   Responsive - END
+====================================================================
+***/
